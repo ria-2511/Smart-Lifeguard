@@ -14,15 +14,16 @@ An efficient and enhanced software tool for detecting well before the person is 
 * An alert is sent to the lifeguard along with the position of the drowning victim through the GPS.
 
 ## Team Members and Their Contributions (Batch COE-12 , Thapar Institute of Eegineering and Technology - 2022)
-* Ria Soam - Front End Web Development for the Prototype (using CSS, HTML , BootStrap , Javascript) , Machine Learning Model to check Drowning or not 
-* Saurabh Kumar - Front End Web Developement For the Prototype , 
-* Arpit Singh
-* Manan Gupta 
+* Ria Soam - Front End Web Development for the Prototype (using CSS, HTML , BootStrap , Javascript) , Machine Learning Model to check Drowning or not , SRS 
+* Saurabh Kumar - Front End Web Developement For the Prototype , SRS
+* Arpit Singh - Flask usage , ML Model 
+* Manan Gupta - Front End Development , ML Model 
 
 
 
 ### Detection System
-Used to detect people in danger of drowning through their heartbeats , systolic bp, diastolic bp and SPo2 values through a wristband which takes this live footage and transmits them to the database to be analyzed by our model. Live alerts are sent to the lifeguard for the people with irregular values and the ones who have high probability of drowning
+Used to detect people in danger of drowning through their heartbeats , systolic bp, diastolic bp and SPo2 values through a wristband which takes this live footage and transmits them to the database to be analyzed by our model. Live alerts are sent to the lifeguard for the people with irregular values and the ones who have high probability of drowning.
+
 #### Description and Priority
 * It is of High priority. benefit, penalty, cost, and risk 
 #### Stimulus/Response Sequences
@@ -33,7 +34,7 @@ Used to detect people in danger of drowning through their heartbeats , systolic 
 * We couldn't find an appropriate dataset online so we created our own using a random number generator and generating values for the coloumns with their respective ranges according to the medical facts.
 * Then we have split the dataset with a 20% ratio of Testing data and 80% ratio of Training data .
 * We have applied SVM to Predict the values of the dataset and to classify whether they fall into the category of drowning or not. 
-* EDIT FROM HERE 
+* Whatever values we enter into our Interface , that is transferred to our model using FLASK. And then flask further tranfers the output given by the model to the interface and the final result is displayed.
 
 ## Algorithm Definition 
 The Algo we have used here is SVM. “Support Vector Machine” (SVM) is a supervised machine learning algorithm that can be used for both classification or regression challenges. However,  it is mostly used in classification problems. In the SVM algorithm, we plot each data item as a point in n-dimensional space (where n is a number of features you have) with the value of each feature being the value of a particular coordinate. Then, we perform classification by finding the hyper-plane that differentiates the two classes very well. 
