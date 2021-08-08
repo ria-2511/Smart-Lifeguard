@@ -13,7 +13,8 @@ An efficient and enhanced software tool for detecting well before the person is 
 * On the basis of certain threshold values it evaluate, that a person has a higher probability of drowning.
 * An alert is sent to the lifeguard along with the position of the drowning victim through the GPS.
 
-## Team Members and Their Contributions (Batch COE-12 , Thapar Institute of Eegineering and Technology - 2022)
+## Team Members and Their Contributions 
+### (Batch COE-12 , Thapar Institute of Engineering and Technology - 2022)
 * Ria Soam - Front End Web Development for the Prototype (using CSS, HTML , BootStrap , Javascript) , Machine Learning Model to check Drowning or not , SRS 
 * Saurabh Kumar - Front End Web Developement For the Prototype , SRS
 * Arpit Singh - Flask usage , ML Model 
