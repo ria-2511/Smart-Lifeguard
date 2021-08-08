@@ -2,6 +2,7 @@
 As per WHO , Drowning is a serious and neglected public health threat claiming the lives of 372 000 people a year worldwide. More than 90% of these deaths occur in low- and middle-income countries. This death toll is almost two thirds that of malnutrition and well over half that of malaria but unlike these public health challenges, there are no broad prevention efforts that target drowning. 
 
 Refer to the SRS Documentation of this Project using the Link below - 
+
 https://github.com/ria-2511/Smart-Lifeguard/blob/main/404_DrowningNotFound%20(1).pdf
 
 ## Goal 
@@ -54,10 +55,12 @@ Kernel coefficient for ‘rbf’, ‘poly’ and ‘sigmoid’. Higher the value
 Example: Let’s difference if we have gamma different gamma values like 0, 10 or 100.
 
 svc = svm.SVC(kernel='rbf', C=1,gamma=0).fit(X, y)
+
 <img src="https://www.analyticsvidhya.com/wp-content/uploads/2015/10/SVM_15.png">
 
 #### 3. C
 Penalty parameter C of the error term. It also controls the trade-off between smooth decision boundaries and classifying the training points correctly.
+
 <img src="https://www.analyticsvidhya.com/wp-content/uploads/2015/10/SVM_18.png">
 
 We should always look at the cross-validation score to have effective combination of these parameters and avoid over-fitting.
