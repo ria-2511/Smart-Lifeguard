@@ -10,19 +10,19 @@ for i in range(60000):
     status= 0
     flag = 0
     if hr>95 and sbp<95 and dbp<70 and spo2<90 : # 100
-        status= 4 # naiyya dub gyi :(
+        status= 4 
         flag = 1
         
     elif hr>90 and sbp<100 and dbp<72 and spo2<92 : # 75
-        status= 3 # naiyya dub gyi
+        status= 3 
         flag = 1
         
     elif hr>85 and sbp<105 and dbp<74 and spo2<94 : # 50
-        status= 2 # naiyya dub
+        status= 2
         flag = 1
         
     elif hr>80 and sbp<110 and dbp<76 and spo2<96 : # 25
-        status= 1 # naiyya
+        status= 1 
         flag = 1
         
     elif hr<81 and sbp>109 and dbp>75 and spo2>95: # 0
